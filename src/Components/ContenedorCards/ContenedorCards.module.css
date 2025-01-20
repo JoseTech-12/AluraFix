@@ -1,0 +1,20 @@
+.seccion{
+padding: 20px;
+background-color: #000000;
+
+
+}
+.contenedor{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorCards{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: nowrap; /* Evita que las tarjetas se envuelvan */
+    overflow-x: auto; /* Habilita el scroll horizontal */
+    padding-bottom: 10px; /* Opcional: Espacio para el scroll bar */
+}

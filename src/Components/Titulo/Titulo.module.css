@@ -1,0 +1,9 @@
+.titulo{
+    display:inline-block;
+    padding: 20px;
+    background-color: bisque;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-align: center;
+
+}

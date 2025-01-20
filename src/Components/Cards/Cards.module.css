@@ -1,0 +1,36 @@
+.article{
+   max-width: 350px;
+    border-radius: 20px;
+    padding: 5px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article img{
+width: 100%;
+min-width: 250px;
+}
+
+.button{
+    padding: 10px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius:8px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+.capa:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+
+}
